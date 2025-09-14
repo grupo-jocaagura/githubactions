@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         //Probando reglas de github actions para cualquier rama de desarrollo        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         // Debe disparar Validate commits (signed) & linters
+        //Configuracion de permisos de repositorio realizada
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
