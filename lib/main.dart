@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         //Probando reglas de github actions para cualquier rama de desarrollo        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        // Debe disparar Validate commits (signed) & linters
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
