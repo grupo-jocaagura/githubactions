@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `validate_commits_and_lints.yaml`: valida firmas de commits, formatea y analiza con Flutter, verifica `dependency_overrides` y usa caché de dependencias (excluye `develop`, `master` y `rev/**` en push).
   - `validate_pr.yaml` (PR → `develop`): exige actualización de `CHANGELOG.md`, ejecuta `format/analyze/test` y realiza *version bump* automático según etiquetas del PR (`major`, `minor`, `patch`) para PRs del mismo repo.
   - `validate_pr_master.yaml` (PR → `master`): ejecuta formato, análisis estricto, tests con cobertura, verifica ausencia de `dependency_overrides` y que la versión de `pubspec.yaml` sea mayor a la de `master`.
+- **Happy roadmap verified**
 
 ## [0.0.1] - 2025-09-14
 
